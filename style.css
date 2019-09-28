@@ -1,0 +1,100 @@
+#msgtextarea {
+	position: relative;
+	top: 20px;
+	left: 2px;
+	width: 300px;
+	height: 80px;
+	resize: none;
+	border: solid 3px black;
+	font-weight: bold;
+}
+
+#a_msgtextarea {
+	position: relative;
+	top: 20px;
+	left: 2px;
+	width: 300px;
+	height: 80px;
+	resize: none;
+	border: solid 3px black;
+	font-weight: bold;
+}
+
+#message {
+	position: relative;
+	top: 18px;
+	left: 3px;
+	width: 300px;
+	border: solid 3px black; 
+}
+
+#a_message {
+	position: relative;
+	top: 18px;
+	left: 3px;
+	width: 300px;
+	border: solid 3px black;
+}
+
+.video {
+	border: 5px solid black;
+	border-radius: 10px;
+}
+
+#lista_videos{
+	position: absolute;
+	left: 80px;
+	top: 90px;
+	border: 2px black solid;
+	padding:30px;
+	max-height: 500px;
+}
+
+.video_nome{
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 10px;
+	cursor: pointer;
+	width: 100%;
+	height: 50px;
+}
+
+.video_nome:hover{
+	background:#84d68c;
+}
+
+.video_nome:click{
+	background:#5eb26b;
+}
+
+.msg_wait{
+	position: absolute;
+	top: 280px;
+	left: 750px;
+	display: none;
+}
+
+@keyframes fadeOut{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0;
+	}
+}
+
+video{
+	pointer-events:none;
+}
+
+#Idisconnect {
+	position: relative;
+	top: 24px;
+	left: 116px;
+}
+
+#Adisconnect {
+	position: relative;
+	top: 24px;
+	left: 116px;
+}

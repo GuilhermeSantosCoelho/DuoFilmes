@@ -1,0 +1,170 @@
+
+.float-left{
+	float:left;
+}
+
+.float-right{
+	float: right;
+}
+
+.player-video{
+	position: relative;
+	float: float;
+	width: 640px;
+	height: 360px;
+	background-color: black;
+}
+
+.player-video video{
+	width: 100%;
+	height: 100%;
+}
+
+.video-preloader{
+	display: none;
+	position: absolute;
+	width: 380px;
+	height: 380px;
+	left: 20%;
+	top: 0%;
+	background: url(../Images/loader.gif) center center no-repeat;
+	background-size: auto 40%;
+}
+
+.player-video .video-controls{
+	position: absolute;
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 10%;
+	bottom: 0;
+}
+
+.video-controls .video-btn{
+	display: block;
+	width: 40px;
+	height: 90%;
+	margin:0 5px;
+	cursor: pointer;
+}
+
+.video-controls .video-btn:hover{
+	background-color: rgba(255,255,255,0.2);
+}
+
+.video-controls .video-play{
+	background: url(../Images/play.png) center center no-repeat;
+	background-size: auto 50%;
+}
+
+.video-controls .video-volume{
+	background: url(../Images/volume.png) center center no-repeat;
+	background-size: auto 50%;
+}
+
+.video-controls .video-screen{
+	background: url(../Images/full-screen.png) center center no-repeat;
+	background-size: auto 50%;
+}
+
+.video-progress-bar{
+	cursor: pointer;
+	width: 100%;
+	height: 10%;
+	background-color: rgba(200,200,200,0.5);
+}
+
+.video-loader{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.video-progress{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	background-color: rgba(255,47,0,0.5);
+}
+
+.video-controls .video-time{
+	display: block;
+	cursor: default;
+	color: white;
+	font-size: 0.9em;
+	padding: 8px 5px;
+}
+
+.slider{
+	background-color: rgba(255,255,255,0.8);
+	width: 80px;
+	height: 20%;
+	margin:2% 0;
+	cursor: pointer;
+	margin-right: 10px;
+	padding: 1px;
+}
+
+.slider-vol{
+	width: 100%;
+	background-color: rgba(255,0,0,0.5);
+	height: 100%;
+	cursor: pointer;
+}
+
+#Aceitar{
+	display: none;
+}
+#Recusar{
+	display: none;
+}
+
+.div_convites{
+width:200px;
+height:100px;
+background:#f00;
+position:absolute;
+z-index:100;
+top:30%;
+left:400px;
+}
+
+#mask {position:absolute;
+z-index:9000;  
+background-color:#000; 
+display:none;
+}
+
+#boxes .window {
+position:absolute;
+width:440px;
+height:200px;
+display:none;
+z-index:9999;
+padding:20px;
+}
+
+/* Personalize a janela modal aqui. Você pode adicionar uma imagem de fundo. */
+#boxes #dialog {
+width:375px;
+height:203px;
+</style>
+}
+/* posiciona o link para fechar a janela */
+.close {
+display:block; 
+text-align:right;
+}  
+
+#Convites_recebidos{
+	position: fixed;
+	left: 500px;
+	top: 500px;
+	height: 200px;
+	width: 50%;
+	background-color: black;
+}
